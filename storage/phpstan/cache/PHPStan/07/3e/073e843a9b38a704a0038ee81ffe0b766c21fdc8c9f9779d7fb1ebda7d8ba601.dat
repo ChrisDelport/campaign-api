@@ -1,0 +1,10 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:83:"v2-f459392591425b08e4600ceec1e914116b8b34111167eaa8567fb0815388ffad-8.4.10-6.73.0.6";s:4:"data";a:22:{s:13:"locatedSource";a:2:{s:5:"class";s:60:"PHPStan\BetterReflection\SourceLocator\Located\LocatedSource";s:4:"data";a:2:{s:4:"name";s:42:"Illuminate\Database\Schema\IndexDefinition";s:8:"filename";s:123:"C:/Users/chris/CodeGPT/campaign-api/vendor/composer/../laravel/framework/src/Illuminate/Database/Schema/IndexDefinition.php";}}s:9:"namespace";s:26:"Illuminate\Database\Schema";s:4:"name";s:42:"Illuminate\Database\Schema\IndexDefinition";s:9:"shortName";s:15:"IndexDefinition";s:11:"isInterface";b:0;s:7:"isTrait";b:0;s:6:"isEnum";b:0;s:12:"isBackedEnum";b:0;s:9:"modifiers";i:0;s:10:"docComment";s:945:"/**
+ * @method $this algorithm(string $algorithm) Specify an algorithm for the index (MySQL/PostgreSQL)
+ * @method $this deferrable(bool $value = true) Specify that the unique index is deferrable (PostgreSQL)
+ * @method $this initiallyImmediate(bool $value = true) Specify the default time to check the unique index constraint (PostgreSQL)
+ * @method $this inplace(bool $value = true) Specify that algorithm=inplace should be used for the index operation (MySQL)
+ * @method $this language(string $language) Specify a language for the full text index (PostgreSQL)
+ * @method $this lock(('none'|'shared'|'default'|'exclusive') $value) Specify the DDL lock mode for the index operation (MySQL)
+ * @method $this nullsNotDistinct(bool $value = true) Specify that the null values should not be treated as distinct (PostgreSQL)
+ * @method $this online(bool $value = true) Specify that index creation should not lock the table (PostgreSQL/SqlServer)
+ */";s:10:"attributes";a:0:{}s:9:"startLine";i:17;s:7:"endLine";i:20;s:11:"startColumn";i:1;s:9:"endColumn";i:1;s:15:"parentClassName";s:25:"Illuminate\Support\Fluent";s:20:"implementsClassNames";a:0:{}s:15:"traitClassNames";a:0:{}s:18:"immediateConstants";a:0:{}s:19:"immediateProperties";a:0:{}s:16:"immediateMethods";a:0:{}s:10:"traitsData";a:4:{s:7:"aliases";a:0:{}s:9:"modifiers";a:0:{}s:11:"precedences";a:0:{}s:6:"hashes";a:0:{}}}}

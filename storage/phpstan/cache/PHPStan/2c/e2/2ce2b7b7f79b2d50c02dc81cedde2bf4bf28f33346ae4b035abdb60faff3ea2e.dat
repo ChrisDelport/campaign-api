@@ -1,0 +1,36 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:83:"v2-b316bc93ae2979a859a378068b4b613d4908ff1ef8c24696ba36168c4ac28723-8.4.10-6.73.0.6";s:4:"data";a:22:{s:13:"locatedSource";a:2:{s:5:"class";s:60:"PHPStan\BetterReflection\SourceLocator\Located\LocatedSource";s:4:"data";a:2:{s:4:"name";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:8:"filename";s:129:"C:/Users/chris/CodeGPT/campaign-api/vendor/composer/../laravel/framework/src/Illuminate/Validation/ValidatesWhenResolvedTrait.php";}}s:9:"namespace";s:21:"Illuminate\Validation";s:4:"name";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"shortName";s:26:"ValidatesWhenResolvedTrait";s:11:"isInterface";b:0;s:7:"isTrait";b:1;s:6:"isEnum";b:0;s:12:"isBackedEnum";b:0;s:9:"modifiers";i:0;s:10:"docComment";s:77:"/**
+ * Provides default implementation of ValidatesWhenResolved contract.
+ */";s:10:"attributes";a:0:{}s:9:"startLine";i:10;s:7:"endLine";i:108;s:11:"startColumn";i:1;s:9:"endColumn";i:1;s:15:"parentClassName";N;s:20:"implementsClassNames";a:0:{}s:15:"traitClassNames";a:0:{}s:18:"immediateConstants";a:0:{}s:19:"immediateProperties";a:0:{}s:16:"immediateMethods";a:7:{s:16:"validateResolved";a:20:{s:4:"name";s:16:"validateResolved";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:58:"/**
+ * Validate the class instance.
+ *
+ * @return void
+ */";s:9:"startLine";i:17;s:7:"endLine";i:36;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}s:20:"prepareForValidation";a:20:{s:4:"name";s:20:"prepareForValidation";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:62:"/**
+ * Prepare the data for validation.
+ *
+ * @return void
+ */";s:9:"startLine";i:43;s:7:"endLine";i:46;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:2;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}s:20:"getValidatorInstance";a:20:{s:4:"name";s:20:"getValidatorInstance";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:101:"/**
+ * Get the validator instance for the request.
+ *
+ * @return \Illuminate\Validation\Validator
+ */";s:9:"startLine";i:53;s:7:"endLine";i:56;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:2;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}s:16:"passedValidation";a:20:{s:4:"name";s:16:"passedValidation";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:65:"/**
+ * Handle a passed validation attempt.
+ *
+ * @return void
+ */";s:9:"startLine";i:63;s:7:"endLine";i:66;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:2;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}s:16:"failedValidation";a:20:{s:4:"name";s:16:"failedValidation";s:10:"parameters";a:1:{s:9:"validator";a:13:{s:4:"name";s:9:"validator";s:7:"default";N;s:4:"type";a:2:{s:5:"class";s:55:"PHPStan\BetterReflection\Reflection\ReflectionNamedType";s:4:"data";a:2:{s:4:"name";s:31:"Illuminate\Validation\Validator";s:12:"isIdentifier";b:0;}}s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:76;s:7:"endLine";i:76;s:11:"startColumn";i:41;s:9:"endColumn";i:60;s:14:"parameterIndex";i:0;s:10:"isOptional";b:0;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:178:"/**
+ * Handle a failed validation attempt.
+ *
+ * @param  \Illuminate\Validation\Validator  $validator
+ * @return void
+ *
+ * @throws \Illuminate\Validation\ValidationException
+ */";s:9:"startLine";i:76;s:7:"endLine";i:81;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:2;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}s:19:"passesAuthorization";a:20:{s:4:"name";s:19:"passesAuthorization";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:86:"/**
+ * Determine if the request passes the authorization check.
+ *
+ * @return bool
+ */";s:9:"startLine";i:88;s:7:"endLine";i:95;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:2;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}s:19:"failedAuthorization";a:20:{s:4:"name";s:19:"failedAuthorization";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:127:"/**
+ * Handle a failed authorization attempt.
+ *
+ * @return void
+ *
+ * @throws \Illuminate\Validation\UnauthorizedException
+ */";s:9:"startLine";i:104;s:7:"endLine";i:107;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:2;s:9:"namespace";s:21:"Illuminate\Validation";s:18:"declaringClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:21:"implementingClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:16:"currentClassName";s:48:"Illuminate\Validation\ValidatesWhenResolvedTrait";s:9:"aliasName";N;}}s:10:"traitsData";a:4:{s:7:"aliases";a:0:{}s:9:"modifiers";a:0:{}s:11:"precedences";a:0:{}s:6:"hashes";a:0:{}}}}

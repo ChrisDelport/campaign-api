@@ -1,0 +1,42 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:83:"v2-642eeb3522c0f140de9d91775207b5bcfeb960062d9856a6c79e4d766c175ed0-8.4.10-6.73.0.6";s:4:"data";a:22:{s:13:"locatedSource";a:2:{s:5:"class";s:60:"PHPStan\BetterReflection\SourceLocator\Located\LocatedSource";s:4:"data";a:2:{s:4:"name";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:8:"filename";s:128:"C:/Users/chris/CodeGPT/campaign-api/vendor/composer/../laravel/framework/src/Illuminate/Database/Schema/ForeignKeyDefinition.php";}}s:9:"namespace";s:26:"Illuminate\Database\Schema";s:4:"name";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"shortName";s:20:"ForeignKeyDefinition";s:11:"isInterface";b:0;s:7:"isTrait";b:0;s:6:"isEnum";b:0;s:12:"isBackedEnum";b:0;s:9:"modifiers";i:0;s:10:"docComment";s:932:"/**
+ * @method ForeignKeyDefinition deferrable(bool $value = true) Set the foreign key as deferrable (PostgreSQL)
+ * @method ForeignKeyDefinition initiallyImmediate(bool $value = true) Set the default time to check the constraint (PostgreSQL)
+ * @method ForeignKeyDefinition inplace(bool $value = true) Specify that algorithm=inplace should be used for the foreign key operation, which requires foreign key checks to be disabled (MySQL)
+ * @method ForeignKeyDefinition lock(('none'|'shared'|'default'|'exclusive') $value) Specify the DDL lock mode for the foreign key operation (MySQL)
+ * @method ForeignKeyDefinition on(string $table) Specify the referenced table
+ * @method ForeignKeyDefinition onDelete(string $action) Add an ON DELETE action
+ * @method ForeignKeyDefinition onUpdate(string $action) Add an ON UPDATE action
+ * @method ForeignKeyDefinition references(string|string[] $columns) Specify the referenced column(s)
+ */";s:10:"attributes";a:0:{}s:9:"startLine";i:17;s:7:"endLine";i:98;s:11:"startColumn";i:1;s:9:"endColumn";i:1;s:15:"parentClassName";s:25:"Illuminate\Support\Fluent";s:20:"implementsClassNames";a:0:{}s:15:"traitClassNames";a:0:{}s:18:"immediateConstants";a:0:{}s:19:"immediateProperties";a:0:{}s:16:"immediateMethods";a:8:{s:15:"cascadeOnUpdate";a:20:{s:4:"name";s:15:"cascadeOnUpdate";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:68:"/**
+ * Indicate that updates should cascade.
+ *
+ * @return $this
+ */";s:9:"startLine";i:24;s:7:"endLine";i:27;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:16:"restrictOnUpdate";a:20:{s:4:"name";s:16:"restrictOnUpdate";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:74:"/**
+ * Indicate that updates should be restricted.
+ *
+ * @return $this
+ */";s:9:"startLine";i:34;s:7:"endLine";i:37;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:12:"nullOnUpdate";a:20:{s:4:"name";s:12:"nullOnUpdate";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:94:"/**
+ * Indicate that updates should set the foreign key value to null.
+ *
+ * @return $this
+ */";s:9:"startLine";i:44;s:7:"endLine";i:47;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:16:"noActionOnUpdate";a:20:{s:4:"name";s:16:"noActionOnUpdate";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:77:"/**
+ * Indicate that updates should have "no action".
+ *
+ * @return $this
+ */";s:9:"startLine";i:54;s:7:"endLine";i:57;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:15:"cascadeOnDelete";a:20:{s:4:"name";s:15:"cascadeOnDelete";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:68:"/**
+ * Indicate that deletes should cascade.
+ *
+ * @return $this
+ */";s:9:"startLine";i:64;s:7:"endLine";i:67;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:16:"restrictOnDelete";a:20:{s:4:"name";s:16:"restrictOnDelete";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:74:"/**
+ * Indicate that deletes should be restricted.
+ *
+ * @return $this
+ */";s:9:"startLine";i:74;s:7:"endLine";i:77;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:12:"nullOnDelete";a:20:{s:4:"name";s:12:"nullOnDelete";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:94:"/**
+ * Indicate that deletes should set the foreign key value to null.
+ *
+ * @return $this
+ */";s:9:"startLine";i:84;s:7:"endLine";i:87;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}s:16:"noActionOnDelete";a:20:{s:4:"name";s:16:"noActionOnDelete";s:10:"parameters";a:0:{}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:77:"/**
+ * Indicate that deletes should have "no action".
+ *
+ * @return $this
+ */";s:9:"startLine";i:94;s:7:"endLine";i:97;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:26:"Illuminate\Database\Schema";s:18:"declaringClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:21:"implementingClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:16:"currentClassName";s:47:"Illuminate\Database\Schema\ForeignKeyDefinition";s:9:"aliasName";N;}}s:10:"traitsData";a:4:{s:7:"aliases";a:0:{}s:9:"modifiers";a:0:{}s:11:"precedences";a:0:{}s:6:"hashes";a:0:{}}}}

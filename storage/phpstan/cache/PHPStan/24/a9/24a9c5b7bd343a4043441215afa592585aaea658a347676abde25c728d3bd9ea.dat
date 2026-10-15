@@ -1,0 +1,32 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:83:"v2-36aeaaaa0447804bd6774852020fd018bb950533c5a2a16a9be2135989fc3bb0-8.4.10-6.73.0.6";s:4:"data";a:22:{s:13:"locatedSource";a:2:{s:5:"class";s:60:"PHPStan\BetterReflection\SourceLocator\Located\LocatedSource";s:4:"data";a:2:{s:4:"name";s:43:"Illuminate\Database\Schema\ColumnDefinition";s:8:"filename";s:124:"C:/Users/chris/CodeGPT/campaign-api/vendor/composer/../laravel/framework/src/Illuminate/Database/Schema/ColumnDefinition.php";}}s:9:"namespace";s:26:"Illuminate\Database\Schema";s:4:"name";s:43:"Illuminate\Database\Schema\ColumnDefinition";s:9:"shortName";s:16:"ColumnDefinition";s:11:"isInterface";b:0;s:7:"isTrait";b:0;s:6:"isEnum";b:0;s:12:"isBackedEnum";b:0;s:9:"modifiers";i:0;s:10:"docComment";s:2930:"/**
+ * @method $this after(string $column) Place the column "after" another column (MySQL)
+ * @method $this always(bool $value = true) Used as a modifier for generatedAs() (PostgreSQL)
+ * @method $this autoIncrement() Set INTEGER columns as auto-increment (primary key)
+ * @method $this change() Change the column
+ * @method $this charset(string $charset) Specify a character set for the column (MySQL)
+ * @method $this collation(string $collation) Specify a collation for the column
+ * @method $this comment(string $comment) Add a comment to the column (MySQL/PostgreSQL)
+ * @method $this default(mixed $value) Specify a "default" value for the column
+ * @method $this first() Place the column "first" in the table (MySQL)
+ * @method $this from(int $startingValue) Set the starting value of an auto-incrementing field (MySQL/PostgreSQL)
+ * @method $this fulltext(bool|string $indexName = null) Add a fulltext index
+ * @method $this generatedAs(string|\Illuminate\Contracts\Database\Query\Expression $expression = null) Create a SQL compliant identity column (PostgreSQL)
+ * @method $this instant() Specify that algorithm=instant should be used for the column operation (MySQL)
+ * @method $this index(bool|string $indexName = null) Add an index
+ * @method $this invisible() Specify that the column should be invisible to "SELECT *" (MySQL)
+ * @method $this lock(('none'|'shared'|'default'|'exclusive') $value) Specify the DDL lock mode for the column operation (MySQL)
+ * @method $this nullable(bool $value = true) Allow NULL values to be inserted into the column
+ * @method $this persisted() Mark the computed generated column as persistent (SQL Server)
+ * @method $this primary(bool $value = true) Add a primary index
+ * @method $this spatialIndex(bool|string $indexName = null) Add a spatial index
+ * @method $this vectorIndex(bool|string $indexName = null) Add a vector index
+ * @method $this startingValue(int $startingValue) Set the starting value of an auto-incrementing field (MySQL/PostgreSQL)
+ * @method $this storedAs(string|\Illuminate\Contracts\Database\Query\Expression $expression) Create a stored generated column (MySQL/PostgreSQL/SQLite)
+ * @method $this type(string $type) Specify a type for the column
+ * @method $this unique(bool|string $indexName = null) Add a unique index
+ * @method $this unsigned(bool $value = true) Set the INTEGER column as UNSIGNED if value is true (MySQL)
+ * @method $this using(string|\Illuminate\Contracts\Database\Query\Expression $expression) Specify a casting expression when changing the column type (PostgreSQL)
+ * @method $this useCurrent() Set the TIMESTAMP column to use CURRENT_TIMESTAMP as default value
+ * @method $this useCurrentOnUpdate() Set the TIMESTAMP column to use CURRENT_TIMESTAMP when updating (MySQL)
+ * @method $this virtualAs(string|\Illuminate\Contracts\Database\Query\Expression $expression) Create a virtual generated column (MySQL/PostgreSQL/SQLite)
+ */";s:10:"attributes";a:0:{}s:9:"startLine";i:39;s:7:"endLine";i:42;s:11:"startColumn";i:1;s:9:"endColumn";i:1;s:15:"parentClassName";s:25:"Illuminate\Support\Fluent";s:20:"implementsClassNames";a:0:{}s:15:"traitClassNames";a:0:{}s:18:"immediateConstants";a:0:{}s:19:"immediateProperties";a:0:{}s:16:"immediateMethods";a:0:{}s:10:"traitsData";a:4:{s:7:"aliases";a:0:{}s:9:"modifiers";a:0:{}s:11:"precedences";a:0:{}s:6:"hashes";a:0:{}}}}

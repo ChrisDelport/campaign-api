@@ -1,0 +1,81 @@
+O:23:"PHPStan\Cache\CacheItem":2:{s:11:"variableKey";s:83:"v2-4383ba3a1e433349741853035ab0996c59c5227a51a657725389b92831183198-8.4.10-6.73.0.6";s:4:"data";a:22:{s:13:"locatedSource";a:2:{s:5:"class";s:60:"PHPStan\BetterReflection\SourceLocator\Located\LocatedSource";s:4:"data";a:2:{s:4:"name";s:18:"Carbon\Traits\Week";s:8:"filename";s:95:"C:/Users/chris/CodeGPT/campaign-api/vendor/composer/../nesbot/carbon/src/Carbon/Traits/Week.php";}}s:9:"namespace";s:13:"Carbon\Traits";s:4:"name";s:18:"Carbon\Traits\Week";s:9:"shortName";s:4:"Week";s:11:"isInterface";b:0;s:7:"isTrait";b:1;s:6:"isEnum";b:0;s:12:"isBackedEnum";b:0;s:9:"modifiers";i:0;s:10:"docComment";s:692:"/**
+ * Trait Week.
+ *
+ * week and ISO week number, year and count in year.
+ *
+ * Depends on the following properties:
+ *
+ * @property int $daysInYear
+ * @property int $dayOfWeek
+ * @property int $dayOfYear
+ * @property int $year
+ *
+ * Depends on the following methods:
+ *
+ * @method static addWeeks(int $weeks = 1)
+ * @method static copy()
+ * @method static dayOfYear(int $dayOfYear)
+ * @method string getTranslationMessage(string $key, ?string $locale = null, ?string $default = null, $translator = null)
+ * @method static next(int|string $modifier = null)
+ * @method static startOfWeek(int $day = null)
+ * @method static subWeeks(int $weeks = 1)
+ * @method static year(int $year = null)
+ */";s:10:"attributes";a:0:{}s:9:"startLine";i:41;s:7:"endLine";i:223;s:11:"startColumn";i:1;s:9:"endColumn";i:1;s:15:"parentClassName";N;s:20:"implementsClassNames";a:0:{}s:15:"traitClassNames";a:0:{}s:18:"immediateConstants";a:0:{}s:19:"immediateProperties";a:0:{}s:16:"immediateMethods";a:6:{s:11:"isoWeekYear";a:20:{s:4:"name";s:11:"isoWeekYear";s:10:"parameters";a:3:{s:4:"year";a:13:{s:4:"name";s:4:"year";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:54;s:7:"endLine";i:54;s:13:"startTokenPos";i:42;s:12:"startFilePos";i:1564;s:11:"endTokenPos";i:42;s:10:"endFilePos";i:1567;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:54;s:7:"endLine";i:54;s:11:"startColumn";i:33;s:9:"endColumn";i:44;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:9:"dayOfWeek";a:13:{s:4:"name";s:9:"dayOfWeek";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:54;s:7:"endLine";i:54;s:13:"startTokenPos";i:49;s:12:"startFilePos";i:1583;s:11:"endTokenPos";i:49;s:10:"endFilePos";i:1586;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:54;s:7:"endLine";i:54;s:11:"startColumn";i:47;s:9:"endColumn";i:63;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}s:9:"dayOfYear";a:13:{s:4:"name";s:9:"dayOfYear";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:54;s:7:"endLine";i:54;s:13:"startTokenPos";i:56;s:12:"startFilePos";i:1602;s:11:"endTokenPos";i:56;s:10:"endFilePos";i:1605;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:54;s:7:"endLine";i:54;s:11:"startColumn";i:66;s:9:"endColumn";i:82;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:460:"/**
+ * Set/get the week number of year using given first day of week and first
+ * day of year included in the first week. Or use ISO format if no settings
+ * given.
+ *
+ * @param int|null $year      if null, act as a getter, if not null, set the year and return current instance.
+ * @param int|null $dayOfWeek first date of week from 0 (Sunday) to 6 (Saturday)
+ * @param int|null $dayOfYear first day of year included in the week #1
+ *
+ * @return int|static
+ */";s:9:"startLine";i:54;s:7:"endLine";i:61;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:13:"Carbon\Traits";s:18:"declaringClassName";s:18:"Carbon\Traits\Week";s:21:"implementingClassName";s:18:"Carbon\Traits\Week";s:16:"currentClassName";s:18:"Carbon\Traits\Week";s:9:"aliasName";N;}s:8:"weekYear";a:20:{s:4:"name";s:8:"weekYear";s:10:"parameters";a:3:{s:4:"year";a:13:{s:4:"name";s:4:"year";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:74;s:7:"endLine";i:74;s:13:"startTokenPos";i:106;s:12:"startFilePos";i:2327;s:11:"endTokenPos";i:106;s:10:"endFilePos";i:2330;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:74;s:7:"endLine";i:74;s:11:"startColumn";i:30;s:9:"endColumn";i:41;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:9:"dayOfWeek";a:13:{s:4:"name";s:9:"dayOfWeek";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:74;s:7:"endLine";i:74;s:13:"startTokenPos";i:113;s:12:"startFilePos";i:2346;s:11:"endTokenPos";i:113;s:10:"endFilePos";i:2349;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:74;s:7:"endLine";i:74;s:11:"startColumn";i:44;s:9:"endColumn";i:60;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}s:9:"dayOfYear";a:13:{s:4:"name";s:9:"dayOfYear";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:74;s:7:"endLine";i:74;s:13:"startTokenPos";i:120;s:12:"startFilePos";i:2365;s:11:"endTokenPos";i:120;s:10:"endFilePos";i:2368;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:74;s:7:"endLine";i:74;s:11:"startColumn";i:63;s:9:"endColumn";i:79;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:476:"/**
+ * Set/get the week number of year using given first day of week and first
+ * day of year included in the first week. Or use US format if no settings
+ * given (Sunday / Jan 6).
+ *
+ * @param int|null $year      if null, act as a getter, if not null, set the year and return current instance.
+ * @param int|null $dayOfWeek first date of week from 0 (Sunday) to 6 (Saturday)
+ * @param int|null $dayOfYear first day of year included in the week #1
+ *
+ * @return int|static
+ */";s:9:"startLine";i:74;s:7:"endLine";i:122;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:13:"Carbon\Traits";s:18:"declaringClassName";s:18:"Carbon\Traits\Week";s:21:"implementingClassName";s:18:"Carbon\Traits\Week";s:16:"currentClassName";s:18:"Carbon\Traits\Week";s:9:"aliasName";N;}s:14:"isoWeeksInYear";a:20:{s:4:"name";s:14:"isoWeeksInYear";s:10:"parameters";a:2:{s:9:"dayOfWeek";a:13:{s:4:"name";s:9:"dayOfWeek";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:134;s:7:"endLine";i:134;s:13:"startTokenPos";i:561;s:12:"startFilePos";i:4468;s:11:"endTokenPos";i:561;s:10:"endFilePos";i:4471;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:134;s:7:"endLine";i:134;s:11:"startColumn";i:36;s:9:"endColumn";i:52;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:9:"dayOfYear";a:13:{s:4:"name";s:9:"dayOfYear";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:134;s:7:"endLine";i:134;s:13:"startTokenPos";i:568;s:12:"startFilePos";i:4487;s:11:"endTokenPos";i:568;s:10:"endFilePos";i:4490;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:134;s:7:"endLine";i:134;s:11:"startColumn";i:55;s:9:"endColumn";i:71;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:359:"/**
+ * Get the number of weeks of the current week-year using given first day of week and first
+ * day of year included in the first week. Or use ISO format if no settings
+ * given.
+ *
+ * @param int|null $dayOfWeek first date of week from 0 (Sunday) to 6 (Saturday)
+ * @param int|null $dayOfYear first day of year included in the week #1
+ *
+ * @return int
+ */";s:9:"startLine";i:134;s:7:"endLine";i:140;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:13:"Carbon\Traits";s:18:"declaringClassName";s:18:"Carbon\Traits\Week";s:21:"implementingClassName";s:18:"Carbon\Traits\Week";s:16:"currentClassName";s:18:"Carbon\Traits\Week";s:9:"aliasName";N;}s:11:"weeksInYear";a:20:{s:4:"name";s:11:"weeksInYear";s:10:"parameters";a:2:{s:9:"dayOfWeek";a:13:{s:4:"name";s:9:"dayOfWeek";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:152;s:7:"endLine";i:152;s:13:"startTokenPos";i:615;s:12:"startFilePos";i:5099;s:11:"endTokenPos";i:615;s:10:"endFilePos";i:5102;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:152;s:7:"endLine";i:152;s:11:"startColumn";i:33;s:9:"endColumn";i:49;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:9:"dayOfYear";a:13:{s:4:"name";s:9:"dayOfYear";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:152;s:7:"endLine";i:152;s:13:"startTokenPos";i:622;s:12:"startFilePos";i:5118;s:11:"endTokenPos";i:622;s:10:"endFilePos";i:5121;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:152;s:7:"endLine";i:152;s:11:"startColumn";i:52;s:9:"endColumn";i:68;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:375:"/**
+ * Get the number of weeks of the current week-year using given first day of week and first
+ * day of year included in the first week. Or use US format if no settings
+ * given (Sunday / Jan 6).
+ *
+ * @param int|null $dayOfWeek first date of week from 0 (Sunday) to 6 (Saturday)
+ * @param int|null $dayOfYear first day of year included in the week #1
+ *
+ * @return int
+ */";s:9:"startLine";i:152;s:7:"endLine";i:169;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:13:"Carbon\Traits";s:18:"declaringClassName";s:18:"Carbon\Traits\Week";s:21:"implementingClassName";s:18:"Carbon\Traits\Week";s:16:"currentClassName";s:18:"Carbon\Traits\Week";s:9:"aliasName";N;}s:4:"week";a:20:{s:4:"name";s:4:"week";s:10:"parameters";a:3:{s:4:"week";a:13:{s:4:"name";s:4:"week";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:182;s:7:"endLine";i:182;s:13:"startTokenPos";i:828;s:12:"startFilePos";i:6254;s:11:"endTokenPos";i:828;s:10:"endFilePos";i:6257;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:182;s:7:"endLine";i:182;s:11:"startColumn";i:26;s:9:"endColumn";i:37;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:9:"dayOfWeek";a:13:{s:4:"name";s:9:"dayOfWeek";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:182;s:7:"endLine";i:182;s:13:"startTokenPos";i:835;s:12:"startFilePos";i:6273;s:11:"endTokenPos";i:835;s:10:"endFilePos";i:6276;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:182;s:7:"endLine";i:182;s:11:"startColumn";i:40;s:9:"endColumn";i:56;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}s:9:"dayOfYear";a:13:{s:4:"name";s:9:"dayOfYear";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:182;s:7:"endLine";i:182;s:13:"startTokenPos";i:842;s:12:"startFilePos";i:6292;s:11:"endTokenPos";i:842;s:10:"endFilePos";i:6295;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:182;s:7:"endLine";i:182;s:11:"startColumn";i:59;s:9:"endColumn";i:75;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:289:"/**
+ * Get/set the week number using given first day of week and first
+ * day of year included in the first week. Or use US format if no settings
+ * given (Sunday / Jan 6).
+ *
+ * @param int|null $week
+ * @param int|null $dayOfWeek
+ * @param int|null $dayOfYear
+ *
+ * @return int|static
+ */";s:9:"startLine";i:182;s:7:"endLine";i:202;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:13:"Carbon\Traits";s:18:"declaringClassName";s:18:"Carbon\Traits\Week";s:21:"implementingClassName";s:18:"Carbon\Traits\Week";s:16:"currentClassName";s:18:"Carbon\Traits\Week";s:9:"aliasName";N;}s:7:"isoWeek";a:20:{s:4:"name";s:7:"isoWeek";s:10:"parameters";a:3:{s:4:"week";a:13:{s:4:"name";s:4:"week";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:215;s:7:"endLine";i:215;s:13:"startTokenPos";i:1090;s:12:"startFilePos";i:7524;s:11:"endTokenPos";i:1090;s:10:"endFilePos";i:7527;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:215;s:7:"endLine";i:215;s:11:"startColumn";i:29;s:9:"endColumn";i:40;s:14:"parameterIndex";i:0;s:10:"isOptional";b:1;}s:9:"dayOfWeek";a:13:{s:4:"name";s:9:"dayOfWeek";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:215;s:7:"endLine";i:215;s:13:"startTokenPos";i:1097;s:12:"startFilePos";i:7543;s:11:"endTokenPos";i:1097;s:10:"endFilePos";i:7546;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:215;s:7:"endLine";i:215;s:11:"startColumn";i:43;s:9:"endColumn";i:59;s:14:"parameterIndex";i:1;s:10:"isOptional";b:1;}s:9:"dayOfYear";a:13:{s:4:"name";s:9:"dayOfYear";s:7:"default";a:2:{s:4:"code";s:4:"null";s:10:"attributes";a:6:{s:9:"startLine";i:215;s:7:"endLine";i:215;s:13:"startTokenPos";i:1104;s:12:"startFilePos";i:7562;s:11:"endTokenPos";i:1104;s:10:"endFilePos";i:7565;}}s:4:"type";N;s:10:"isVariadic";b:0;s:5:"byRef";b:0;s:10:"isPromoted";b:0;s:10:"attributes";a:0:{}s:9:"startLine";i:215;s:7:"endLine";i:215;s:11:"startColumn";i:62;s:9:"endColumn";i:78;s:14:"parameterIndex";i:2;s:10:"isOptional";b:1;}}s:16:"returnsReference";b:0;s:10:"returnType";N;s:10:"attributes";a:0:{}s:10:"docComment";s:273:"/**
+ * Get/set the week number using given first day of week and first
+ * day of year included in the first week. Or use ISO format if no settings
+ * given.
+ *
+ * @param int|null $week
+ * @param int|null $dayOfWeek
+ * @param int|null $dayOfYear
+ *
+ * @return int|static
+ */";s:9:"startLine";i:215;s:7:"endLine";i:222;s:11:"startColumn";i:5;s:9:"endColumn";i:5;s:10:"couldThrow";b:0;s:9:"isClosure";b:0;s:11:"isGenerator";b:0;s:10:"isVariadic";b:0;s:9:"modifiers";i:1;s:9:"namespace";s:13:"Carbon\Traits";s:18:"declaringClassName";s:18:"Carbon\Traits\Week";s:21:"implementingClassName";s:18:"Carbon\Traits\Week";s:16:"currentClassName";s:18:"Carbon\Traits\Week";s:9:"aliasName";N;}}s:10:"traitsData";a:4:{s:7:"aliases";a:0:{}s:9:"modifiers";a:0:{}s:11:"precedences";a:0:{}s:6:"hashes";a:0:{}}}}
