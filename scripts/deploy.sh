@@ -56,16 +56,14 @@ say "Building images and starting services (app, nginx, mysql, redis, queue)"
 docker compose up -d --build
 
 # ------------------------------------------------------- wait for the database
+# Probe the mysql container itself with mysqladmin ping - no dependency on
+# app-container env vars (compose passes only APP_ENV; DB_* live in .env and
+# are read by Laravel, not the shell).
 say "Waiting for MySQL to accept connections"
 ATTEMPTS=0
-until docker compose exec -T app php -r '
-    @$pdo = new PDO(
-        sprintf("mysql:host=%s;port=%s;dbname=%s", getenv("DB_HOST"), getenv("DB_PORT"), getenv("DB_DATABASE")),
-        getenv("DB_USERNAME"), getenv("DB_PASSWORD"), [PDO::ATTR_TIMEOUT => 2]
-    );
-' >/dev/null 2>&1; do
+until docker compose exec -T mysql mysqladmin ping -h localhost --silent >/dev/null 2>&1; do
     ATTEMPTS=$((ATTEMPTS + 1))
-    if [[ $ATTEMPTS -ge 30 ]]; then
+    if [[ $ATTEMPTS -ge 60 ]]; then
         docker compose logs --tail 50 mysql || true
         fail "MySQL did not become ready in time. Check the logs above."
     fi
@@ -74,8 +72,16 @@ done
 echo "MySQL is ready."
 
 # ---------------------------------------------------------------- migrations
+# Retry a few times in case migrations race the server's first seconds.
 say "Running migrations"
-docker compose exec -T app php artisan migrate --force
+ATTEMPTS=0
+until docker compose exec -T app php artisan migrate --force; do
+    ATTEMPTS=$((ATTEMPTS + 1))
+    if [[ $ATTEMPTS -ge 5 ]]; then
+        fail "Migrations failed after 5 attempts. Check 'docker compose logs app'."
+    fi
+    sleep 3
+done
 
 # ------------------------------------------------------- wait for the API
 say "Waiting for the API to respond"
