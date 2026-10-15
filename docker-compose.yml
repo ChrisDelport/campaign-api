@@ -41,7 +41,12 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD:-secret}
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-secret}
     ports:
-      - "${DB_PORT:-3306}:3306"
+      # Host port defaults to 33061 to avoid clashing with a local MySQL
+      # already bound to 3306. Override with MYSQL_HOST_PORT in .env if you
+      # want another host port (or remove this mapping entirely - containers
+      # reach MySQL over the compose network via the 'mysql' hostname and
+      # DB_PORT, which stays 3306 inside the network).
+      - "${MYSQL_HOST_PORT:-33061}:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     healthcheck:
