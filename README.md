@@ -23,7 +23,60 @@ If you're reading the code, this is the dependency chain:
 - Pest (tests), PHPStan + Larastan (static analysis, level 5), Laravel Pint (formatting)
 - Docker + Docker Compose (app, nginx, mysql, redis, queue worker)
 
-## Quick start (Docker)
+## Getting Started
+
+### Prerequisites
+
+- Docker with Compose v2 (Docker Desktop on macOS/Windows, `docker-ce` + compose plugin on Linux) — the only dependency; PHP/Composer/Node are **not** required on the host.
+- `bash` (macOS/Linux out of the box; on Windows use WSL or Git Bash).
+
+### Quick start
+
+Clone, then run one command:
+
+```sh
+./scripts/deploy.sh
+```
+
+The script is idempotent — safe to re-run any time. It:
+
+1. verifies Docker is installed and the daemon is running,
+2. creates `.env` from `.env.example` if missing, and generates `APP_KEY` once,
+3. builds the images and starts the whole stack (`app`, `nginx`, `mysql`, `redis`, `queue` worker),
+4. waits for MySQL to accept connections (healthchecked),
+5. runs migrations,
+6. waits until the API answers, then prints the endpoints and a sample `curl`.
+
+When it finishes, the API is live at **http://localhost:8000** and the Redis queue worker is already consuming import jobs.
+
+```sh
+curl -X POST http://localhost:8000/api/clients -H 'Content-Type: application/json' -d '{"name":"Acme Corp"}'
+```
+
+Options:
+
+```sh
+./scripts/deploy.sh --reset   # also wipe the MySQL data volume (fresh database)
+```
+
+### Tear down
+
+```sh
+docker compose down      # stop everything, keep database data
+docker compose down -v   # stop and delete database data
+```
+
+### What's running
+
+| Service | Image | Purpose |
+| --- | --- | --- |
+| `nginx` | `nginx:1.27-alpine` | HTTP entry point, port 8000 -> php-fpm |
+| `app` | built from `Dockerfile` | PHP-FPM application container |
+| `mysql` | `mysql:8.4` | Database, data persisted in the `mysql-data` volume |
+| `redis` | `redis:7-alpine` | Queue + cache backend |
+| `queue` | built from `Dockerfile` | Redis queue worker (`php artisan queue:work redis --tries=3 --max-jobs=1000`) |
+
+### Manual quick start (equivalent, without the script)
 
 ```sh
 cp .env.example .env
