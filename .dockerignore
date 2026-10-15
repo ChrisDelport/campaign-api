@@ -1,0 +1,34 @@
+# Build context hygiene: keep images lean and builds fast.
+# The context is uploaded on every `docker compose build`; without this file
+# it ships vendor/, local logs, caches and secrets (~160MB+ per build).
+
+# Dependencies - installed inside the image via composer install
+vendor/
+node_modules/
+
+# VCS
+.git/
+.gitignore
+.gitattributes
+
+# Local config & secrets
+.env
+.env.*.bak
+storage/*.key
+
+# Local runtime output (baked dirs still get placeholder .gitignore files)
+storage/logs/*
+storage/framework/cache/data/*
+storage/framework/sessions/*
+storage/framework/views/*
+storage/app/private/*
+storage/logs/laravel*.log
+
+# Tooling / editor
+.idea/
+.vscode/
+*.swp
+
+# Docs & CI artefacts not needed at runtime
+.phpunit.cache/
+.phpunit.result.cache
