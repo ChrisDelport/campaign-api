@@ -33,7 +33,9 @@ WORKDIR /var/www/html
 
 COPY --from=base /usr/bin/composer /usr/bin/composer
 COPY composer.json composer.lock ./
-RUN composer install --prefer-dist --no-interaction --no-progress
+# --no-scripts: package:discover needs artisan, which hasn't been COPY'd yet
+# (COPY . . follows). Laravel re-runs discovery at container boot anyway.
+RUN composer install --prefer-dist --no-interaction --no-progress --no-scripts
 
 COPY . .
 RUN chown -R www-data:www-data storage bootstrap/cache
