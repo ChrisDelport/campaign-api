@@ -6,7 +6,7 @@
 # workhorse; nginx (see docker/nginx.conf) terminates HTTP and proxies
 # FastCGI to the 'app' service on port 9000.
 
-FROM php:8.3-fpm-alpine AS base
+FROM php:8.4-fpm-alpine AS base
 
 RUN apk add --no-cache \
     icu-dev \
